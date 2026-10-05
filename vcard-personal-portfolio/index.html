@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Niraj Chopra | Backend Java Developer</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Niraj Chopra" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Niraj Chopra">Niraj Chopra</h1>
+
+          <p class="title">Backend Java Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:nirajchopra.1757@gmail.com" class="contact-link">nirajchopra.1757@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+918305443480" class="contact-link">+91 83054 43480</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="link-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">LinkedIn</p>
+              <a href="https://linkedin.com/in/nirajchopra-964961277" class="contact-link" target="_blank" rel="noreferrer">linkedin.com/in/nirajchopra</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Indore, Madhya Pradesh, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item"><a href="https://github.com/nirajchopra" class="social-link" aria-label="GitHub" target="_blank" rel="noreferrer"><ion-icon name="logo-github"></ion-icon></a></li>
+          <li class="social-item"><a href="https://linkedin.com/in/nirajchopra-964961277" class="social-link" aria-label="LinkedIn" target="_blank" rel="noreferrer"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+          <li class="social-item"><a href="mailto:nirajchopra.1757@gmail.com" class="social-link" aria-label="Email"><ion-icon name="mail-outline"></ion-icon></a></li>
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link data-page-target="about">About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link data-page-target="resume">Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link data-page-target="skills">Skills</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link data-page-target="certifications">Certifications</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link data-page-target="contact">Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>I'm Niraj Chopra, a computer science undergraduate and Backend Java Developer focused on building secure, reliable web applications. I work with Java, Spring Boot, Spring Security, Hibernate/JPA, REST APIs, and MySQL.</p>
+          <p>My experience spans full-stack development with Angular, backend architecture, Linux administration, and automated deployments with Docker, Jenkins, and AWS. I value clean, testable code and practical solutions, and have hands-on experience with JUnit, Mockito, Agile, and Scrum.</p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Backend development</h4>
+
+                <p class="service-item-text">
+                  Java, Spring Boot, REST APIs, Spring Security, and scalable service design.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="DevOps icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">DevOps</h4>
+
+                <p class="service-item-text">
+                  Full-stack applications built with Angular, MySQL, and maintainable layered architecture.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">DevOps & cloud</h4>
+
+                <p class="service-item-text">
+                  Containerized deployments with Docker, Jenkins CI/CD, Linux, and AWS.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Linux systems</h4>
+
+                <p class="service-item-text">
+                  Shell scripting, service management, permissions, process monitoring, and system administration.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="about-text" aria-label="Download resume">
+          <p><a href="./assets/Niraj_Chopra_Resume.pdf" download="Niraj_Chopra_Resume.pdf" class="form-btn" style="display: inline-flex; width: auto; text-decoration: none;">Download Resume (PDF)</a></p>
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">APJ Abdul Kalam Technological University</h4>
+              <span>2022 — 2026</span>
+              <p class="timeline-text">Bachelor of Engineering (B.E.) in Computer Science · Indore, Madhya Pradesh, India</p>
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Full-Stack Java Developer Intern</h4>
+              <span>Dec 2025 — Jun 2026 · SunilOS Infotech Pvt. Ltd. (Rays Technologies), Indore</span>
+              <p class="timeline-text">Completed a six-month internship building applications with Java, Spring Boot, Angular, and DevOps tooling. Worked in an Agile/Scrum team under the guidance of Mr. Sawan Panwar.</p>
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box"><ion-icon name="briefcase-outline"></ion-icon></div>
+            <h3 class="h3">Projects</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">MediBook — AI-Powered Medicine Booking Platform</h4>
+              <span>2026 · Java, Spring Boot, Angular, MySQL, Ollama AI</span>
+              <p class="timeline-text">Built a medicine booking platform with User, Store, and Administrator roles. Implemented Spring Security and JWT authentication, REST APIs for medicines, carts, orders, and users, plus AI-powered recommendations, medicine explanations, healthcare assistance, and sales analytics with Ollama (Qwen 2.5 and Llama 3.2).</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Online Result System</h4>
+              <span>2025 · Java, JSP/Servlets, MySQL</span>
+              <p class="timeline-text">Created a result management system for 100+ student records with role-based student and administrator login, server-side validation, a centralized admin dashboard, and a normalized database schema.</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">CI/CD Deployment Pipeline</h4>
+              <span>2025 · Jenkins, Docker, DockerHub, AWS EC2, Linux, Maven, GitHub</span>
+              <p class="timeline-text">Automated builds and WAR deployments using Jenkins, Docker, and AWS EC2. Integrated Maven, GitHub webhooks, and Tomcat deployment; used Bash scripts and systemd to support Linux server startup and health checks.</p>
+            </li>
+          </ol>
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="skills">
+        <header><h2 class="h2 article-title">Technical Skills</h2></header>
+        <section class="skill">
+          <ul class="skills-list content-card">
+            <li class="skills-item"><div class="title-wrapper"><h5 class="h5">Languages</h5></div><p class="timeline-text">Java, JavaScript, HTML, CSS, SQL</p></li>
+            <li class="skills-item"><div class="title-wrapper"><h5 class="h5">Backend frameworks & APIs</h5></div><p class="timeline-text">Spring Boot, Spring Security, Hibernate/JPA, REST APIs, JSP/Servlets, Angular</p></li>
+            <li class="skills-item"><div class="title-wrapper"><h5 class="h5">Core Java & architecture</h5></div><p class="timeline-text">OOP, Collections Framework, Multithreading, Exception Handling, Data Structures and Algorithms, Microservices, MVC, Layered Architecture</p></li>
+            <li class="skills-item"><div class="title-wrapper"><h5 class="h5">Security, databases & testing</h5></div><p class="timeline-text">JWT, Role-Based Access Control (RBAC), MySQL, JUnit, Mockito</p></li>
+            <li class="skills-item"><div class="title-wrapper"><h5 class="h5">DevOps & cloud</h5></div><p class="timeline-text">Docker, Jenkins CI/CD, AWS (EC2, S3, RDS, IAM), Maven, Apache Tomcat</p></li>
+            <li class="skills-item"><div class="title-wrapper"><h5 class="h5">Linux & systems administration</h5></div><p class="timeline-text">Windows, Ubuntu/Linux, Bash scripting, users and permissions, process management, systemd/services, networking basics, apt/yum, log monitoring</p></li>
+            <li class="skills-item"><div class="title-wrapper"><h5 class="h5">Tools & ways of working</h5></div><p class="timeline-text">Git, GitHub, Meld Merge, IntelliJ IDEA, Eclipse, VS Code, Postman, Agile, Scrum</p></li>
+            <li class="skills-item"><div class="title-wrapper"><h5 class="h5">AI / LLM tooling</h5></div><p class="timeline-text">Ollama with Qwen 2.5 and Llama 3.2</p></li>
+          </ul>
+        </section>
+      </article>
+
+
+
+      <!--
+        - #CERTIFICATIONS
+      -->
+
+      <article class="blog" data-page="certifications">
+        <header><h2 class="h2 article-title">Certifications</h2></header>
+        <section class="blog-posts"><ul class="blog-posts-list" data-cert-list><li class="blog-post-item"><div class="blog-content"><h3 class="h3 blog-item-title">Java (Basic)</h3><p class="blog-text">HackerRank · Certificate ID: 1319CC4430E3</p><a class="certificate-link" href="https://www.hackerrank.com/certificates/1319CC4430E3" target="_blank" rel="noreferrer">View Certificate</a></div></li>
+<li class="blog-post-item"><div class="blog-content"><h3 class="h3 blog-item-title">SQL (Basic)</h3><p class="blog-text">HackerRank · Certificate ID: B72A32E575FB</p><a class="certificate-link" href="https://www.hackerrank.com/certificates/B72A32E575FB" target="_blank" rel="noreferrer">View Certificate</a></div></li>
+<li class="blog-post-item"><div class="blog-content"><h3 class="h3 blog-item-title">AWS Cloud</h3><p class="blog-text">TrainWithShubham · Certificate ID: EVD0VEYK</p></div></li>
+<li class="blog-post-item"><div class="blog-content"><h3 class="h3 blog-item-title">AI Tools Workshop</h3><p class="blog-text">Be10x</p></div></li>
+<li class="blog-post-item"><div class="blog-content"><h3 class="h3 blog-item-title">Fundamentals of Docker and Kubernetes</h3><p class="blog-text">Scaler</p></div></li></ul></section>
+        <section class="contact-form">
+          <h3 class="h3 form-title">Add a Certificate</h3>
+          <form class="form" data-cert-form>
+            <div class="input-wrapper">
+              <input class="form-input" name="certificateName" placeholder="Certificate name" required data-form-input>
+              <input class="form-input" name="certificateIssuer" placeholder="Issuing organization" required data-form-input>
+            </div>
+            <div class="input-wrapper">
+              <input class="form-input" name="certificateId" placeholder="Certificate ID (optional)" data-form-input>
+              <input class="form-input" name="certificateUrl" type="url" placeholder="Certificate URL (optional; opens with View Certificate)" data-form-input>
+            </div>
+            <button class="form-btn" type="submit"><ion-icon name="add-outline"></ion-icon><span>Add Certificate</span></button>
+            <p class="form-input" data-cert-status role="status" aria-live="polite" style="display:none"></p>
+          </form>
+        </section>
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="about-text">
+          <h3 class="h3">Contact Details</h3>
+          <ul class="contacts-list">
+            <li class="contact-item"><div class="icon-box"><ion-icon name="mail-outline"></ion-icon></div><div class="contact-info"><p class="contact-title">Email</p><a href="mailto:nirajchopra.1757@gmail.com" class="contact-link">nirajchopra.1757@gmail.com</a></div></li>
+            <li class="contact-item"><div class="icon-box"><ion-icon name="phone-portrait-outline"></ion-icon></div><div class="contact-info"><p class="contact-title">Phone</p><a href="tel:+918305443480" class="contact-link">+91 83054 43480</a></div></li>
+            <li class="contact-item"><div class="icon-box"><ion-icon name="logo-linkedin"></ion-icon></div><div class="contact-info"><p class="contact-title">LinkedIn</p><a href="https://linkedin.com/in/nirajchopra-964961277" class="contact-link" target="_blank" rel="noreferrer">linkedin.com/in/nirajchopra-964961277</a></div></li>
+            <li class="contact-item"><div class="icon-box"><ion-icon name="logo-github"></ion-icon></div><div class="contact-info"><p class="contact-title">GitHub</p><a href="https://github.com/nirajchopra" class="contact-link" target="_blank" rel="noreferrer">github.com/nirajchopra</a></div></li>
+            <li class="contact-item"><div class="icon-box"><ion-icon name="location-outline"></ion-icon></div><div class="contact-info"><p class="contact-title">Location</p><address>Indore, Madhya Pradesh, India</address></div></li>
+          </ul>
+        </section>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://maps.google.com/maps?q=Indore%2C%20Madhya%20Pradesh%2C%20India&t=&z=12&ie=UTF8&iwloc=&output=embed"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="mailto:nirajchopra.1757@gmail.com" method="post" enctype="text/plain" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

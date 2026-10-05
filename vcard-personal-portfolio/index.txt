@@ -1,0 +1,31 @@
+Niraj Chopra | Backend Java Developer
+
+Contact
+Email: nirajchopra.1757@gmail.com
+Phone: +91 83054 43480
+LinkedIn: https://linkedin.com/in/nirajchopra-964961277
+GitHub: https://github.com/nirajchopra
+Location: Indore, Madhya Pradesh, India
+
+Profile
+Computer science undergraduate focused on Java backend development. Experienced with Java, Spring Boot, Spring Security, Hibernate/JPA, REST APIs, MySQL, Angular, Linux, Docker, Jenkins, and AWS. Familiar with Microservices, OOP, data structures and algorithms, multithreading, JUnit, Mockito, Agile, and Scrum.
+
+Experience
+Full-Stack Java Developer Intern — SunilOS Infotech Pvt. Ltd. (Rays Technologies), Indore | Dec 2025–Jun 2026
+Six-month internship building applications with Java, Spring Boot, Angular, and DevOps tooling in an Agile/Scrum team under Mr. Sawan Panwar.
+
+Education
+B.E. Computer Science — APJ Abdul Kalam Technological University | 2022–2026
+Indore, Madhya Pradesh, India
+
+Projects
+MediBook — AI-powered medicine booking platform: Java, Spring Boot, Angular, MySQL, Ollama; role-based access, JWT security, REST APIs, AI recommendations/explanations, and admin analytics.
+Online Result System: Java, JSP/Servlets, MySQL; role-based login, 100+ student records, validations, admin dashboard, normalized schema.
+CI/CD Deployment Pipeline: Jenkins, Docker, DockerHub, AWS EC2, Linux, Maven, GitHub, Tomcat; automated build and deployment pipeline.
+
+Certifications
+Java (Basic), HackerRank — 1319CC4430E3
+SQL (Basic), HackerRank — B72A32E575FB
+AWS Cloud, TrainWithShubham — EVD0VEYK
+AI Tools Workshop, Be10x
+Fundamentals of Docker and Kubernetes, Scaler
